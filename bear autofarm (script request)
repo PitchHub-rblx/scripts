@@ -1,3 +1,3 @@
 --change true to false if you want to stop it 
-getgenv().quidzz = true 
+getgenv().quidzzz = true 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/PitchyATree/myscript/main/˞"))()
