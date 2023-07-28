@@ -1,3 +1,4 @@
+
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/PitchyATree/roblox-exploit-library/main/turtle%20library%20red%20version"))()
 local window = library:Window("PitchHub - CandyFarm")
 window:Label("idk if poeple can see the bags tp ", Color3.fromRGB(127, 143, 166))
@@ -14,4 +15,12 @@ end
 end
 end
 end-- bool is true or false depending on the state of the toggle
+end)
+window:Button("anti afk", function()  
+local vu = game:GetService("VirtualUser")
+game:GetService("Players").LocalPlayer.Idled:connect(function()
+   vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+   wait(1)
+   vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+end)
 end)
