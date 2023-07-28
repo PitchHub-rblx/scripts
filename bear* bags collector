@@ -1,0 +1,17 @@
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/PitchyATree/roblox-exploit-library/main/turtle%20library%20red%20version"))()
+local window = library:Window("PitchHub - CandyFarm")
+window:Label("idk if poeple can see the bags tp ", Color3.fromRGB(127, 143, 166))
+window:Label("(didn't look with an alt so be aware) ", Color3.fromRGB(127, 143, 166))
+window:Toggle("bags", false, function(bool)  -- you can change window to the ui you want the toggle in 
+     getgenv().Candy1 = bool
+     while wait() do
+         if getgenv().Candy1 == true then
+             local me = game.Players.LocalPlayer.Character.HumanoidRootPart
+for i,v in pairs(game.Workspace.Candy_Bin:GetDescendants()) do
+if v.Name == "Bag" then
+v.CFrame = me.CFrame
+end
+end
+end
+end-- bool is true or false depending on the state of the toggle
+end)
