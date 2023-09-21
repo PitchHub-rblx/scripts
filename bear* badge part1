@@ -1,0 +1,47 @@
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/PitchyATree/roblox-exploit-library/main/turtle%20library%20red%20version"))()
+local window = library:Window("PitchHub - bear*  badge")
+window:Label("tps", Color3.fromRGB(127, 143, 166))
+window:Button("purple button", function()     -- you can change window2 to the ui you want the button in 
+   local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new( 516.94, 3.78486, 72.012 )
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location-- script button do
+end)
+
+    window:Button("red button", function()     -- you can change window2 to the ui you want the button in 
+   local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new( 373.196, 30.482, 189.374 )
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location-- script button do
+end)
+
+    window:Button("code ", function()     -- you can change window2 to the ui you want the button in 
+   local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new( 491.041, 28.8101, 82.315 )
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location-- script button do
+end)
+
+    window:Button("safe", function()     -- you can change window2 to the ui you want the button in 
+   local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new( 250.058, -17.196, 112.246 )
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location-- script button do
+end)
+
+    window:Button("door", function()     -- you can change window2 to the ui you want the button in 
+   local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(239.349, -19.7937, 182.87  )
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location-- script button do
+end)
