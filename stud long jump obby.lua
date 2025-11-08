@@ -29,7 +29,7 @@ end
 
 -- Téléportation automatique
 task.spawn(function()
-    while task.wait(1) do
+    while task.wait(0.1) do
         if toggles.items then
             teleportItems()
         end
@@ -63,7 +63,7 @@ end)
 
 -- Auto-jump
 task.spawn(function()
-    while task.wait(1) do
+    while task.wait(0.1) do
         if toggles.jump then
             local hum = game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:FindFirstChildOfClass("Humanoid")
             if hum then
